@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Pretendard;
+    src: url('../../../font/PretendardVariable.ttf') format('truetype');
+}
+.signup {
+    height: 100%;
+    min-height: 100vh;
+    background: #000000;
+    display: grid;
+    place-items: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.signup__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 266px;
+}
+
+.signup__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .signup__subheading {
+        font-weight: 800;
+        font-size: 19px;
+        line-height: 35px;
+        letter-spacing: 0.25em;
+        margin: 12px 0 36px;
+        text-align: center;
+    }
+}
+
+// Signup Form--------------------------------------------------
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .signup__error {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #828282;
+        border-radius: 12px;
+        padding: 12px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .signup__input-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        label {
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 12px;
+        }
+        input, select, .signup__select-brands {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #828282;
+            border-radius: 12px;
+            outline: none;
+            padding: 11px 12px;
+            font-family: inherit;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            color: inherit;
+            line-height: 18px;
+            margin-bottom: 28px;
+            &::placeholder {
+                color: #828282;
+            }
+        }
+        select {
+            appearance: none;
+            background-image: url('../../../assets/select-arrow.svg');
+            background-repeat: no-repeat, repeat;
+            background-position: right .7em top 50%, 0 0;
+            option {
+                color: #000000
+            }
+            margin-bottom: 0
+        }
+    }  
+    button {
+        width: 100%;
+        border-radius: 12px;
+        border: none;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        padding: 14px;
+        margin: 70px 0 38px;
+        cursor: pointer;
+    }
+}
+// Signup Form--------------------------------------------------
+
+// Please select brands clickable div--------------------------------------------------
+.signup__select-brands {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0 !important;
+}
+// Please select brands clickable div--------------------------------------------------
+
+// Options wrapper--------------------------------------------------
+.signup__options-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    color: #000000;
+    position: relative;
+    top: 7px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+}
+// Options wrapper--------------------------------------------------
+
+.signup__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 16px;
+    input {
+        width: 16px;
+        height: 16px;
+        margin: 0 !important;
+    }
+    label {
+        flex: 2;
+        text-align: center;
+        margin-bottom: 0 !important;
+    }
+}

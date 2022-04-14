@@ -1,0 +1,14 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="48.5" width="3" height="10" fill="black"/>
+<rect x="48.5" y="90" width="3" height="10" fill="black"/>
+<rect x="100" y="48.5" width="3" height="10" transform="rotate(90 100 48.5)" fill="black"/>
+<rect x="10" y="48.5" width="3" height="10" transform="rotate(90 10 48.5)" fill="black"/>
+<rect x="92.5513" y="23.7012" width="3" height="10" transform="rotate(60 92.5513 23.7012)" fill="black"/>
+<rect x="14.6089" y="68.7012" width="3" height="10" transform="rotate(60 14.6089 68.7012)" fill="black"/>
+<rect x="73.7012" y="5.94922" width="3" height="10" transform="rotate(30 73.7012 5.94922)" fill="black"/>
+<rect x="28.7012" y="83.8906" width="3" height="10" transform="rotate(30 28.7012 83.8906)" fill="black"/>
+<rect x="76.2988" y="92.5508" width="3" height="10" transform="rotate(150 76.2988 92.5508)" fill="black"/>
+<rect x="31.2988" y="14.6094" width="3" height="10" transform="rotate(150 31.2988 14.6094)" fill="black"/>
+<rect x="94.0513" y="73.7012" width="3" height="10" transform="rotate(120 94.0513 73.7012)" fill="black"/>
+<rect x="16.1089" y="28.7012" width="3" height="10" transform="rotate(120 16.1089 28.7012)" fill="black"/>
+</svg>

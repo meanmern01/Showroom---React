@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("../../font/Pretendard-Bold.otf") format("opentype");
+}
+body {
+  font-family: "Pretendard";
+}
+
+.Brandinfo2 {
+  position: absolute;
+
+  /* headline1 */
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 177px;
+  line-height: 212px;
+
+  // border: 2px solid #000000;
+
+  position: absolute;
+  width: 100%;
+  height: 12500px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+
+  background: linear-gradient(
+    180deg,
+    #fff0db 0%,
+    #fff0db 85.42%,
+    #c9dbe0 88.54%,
+    #c8dae0 100%
+  );
+}
+
+#Brandinfo2_upper_text {
+  position: absolute;
+  width: 900px;
+  height: 240px;
+  left: 85px;
+  top: 246px;
+
+  /* headline1 */
+  -webkit-text-stroke-color: slategrey;
+  -webkit-text-stroke-width: 2px;
+  color: transparent;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 125px;
+  line-height: 120px;
+  z-index: 2;
+  animation: movingTopToBottom 1s linear infinite;
+  // -webkit-animation: movingTopToBottom 10s linear infinite;
+  // transform: translateX(-50%) translateY(-50%);
+  // position: absolute;
+
+  // border: 2px solid #000000;
+}
+
+@keyframes movingTopToBottom {
+  from {
+    position: fixed;
+    opacity: 1;
+    // transform: translateY(100%);
+  }
+  to {
+    position: fixed;
+    // opacity: 0;
+  }
+}
+
+#Brandinfo2_pic_1 {
+  position: absolute;
+  left: 31.72%;
+  right: 8.44%;
+  top: 1.11%;
+  //   bottom: 94.07%;
+}
+
+#Brandinfo2_pic_2 {
+  position: absolute;
+  left: 8.39%;
+  right: 41.35%;
+  top: 3.8%;
+  z-index: 1;
+  //   bottom: 85.73%;
+}
+
+#Brandinfo2_pic_3 {
+  position: absolute;
+  left: 41.25%;
+  right: 9.62%;
+  top: 13.55%;
+  //   bottom: 80.38%;
+}
+
+#Brandinfo2_pic_4 {
+  position: absolute;
+  left: 19.22%;
+  right: 0%;
+  top: 19.06%;
+  //   bottom: 69.61%;
+}
+
+#Brandinfo2_pic_5 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 29.36%;
+  //   bottom: 58.4%;
+}
+
+#Brandinfo2_pic_6 {
+  position: absolute;
+  left: 50%;
+  right: 11.51%;
+  top: 38.19%;
+  //   bottom: 49.32%;
+}
+
+#Brandinfo2_pic_7 {
+  position: absolute;
+  left: 13.49%;
+  right: 58.75%;
+  top: 45.5%;
+  z-index: 1;
+  //   bottom: 45.91%;
+}
+
+#Brandinfo2_pic_8 {
+  position: absolute;
+  left: 25.16%;
+  right: 3.75%;
+  top: 46.62%;
+  //   bottom: 40.48%;
+}
+
+#Brandinfo2_pic_9 {
+  position: absolute;
+  left: 5.89%;
+  right: 42.4%;
+  top: 53.91%;
+  //   bottom: 33.29%;
+}
+
+#Brandinfo2_pic_10 {
+  position: absolute;
+  left: 50%;
+  right: 8.44%;
+  top: 60.21%;
+  //   bottom: 25.12%;
+}
+
+#Brandinfo2_pic_11 {
+  position: absolute;
+  left: 0%;
+  right: 18.54%;
+  top: 67.49%;
+  //   bottom: 14.1%;
+}
+
+#Brandinfo2_pic_12 {
+  position: absolute;
+  left: 51.88%;
+  right: 0%;
+  top: 73.99%;
+
+  //   bottom: 10.5%;
+}
+
+#Brandinfo2_pic_13 {
+  position: absolute;
+  left: 19.22%;
+  right: 10.62%;
+  top: 80%;
+
+  //   bottom: 1.63%;
+}
+
+#Brandinfo2_pic_14 {
+  position: absolute;
+  left: 38.49%;
+  right: 7.81%;
+  top: 87.91%;
+}
+
+#Brandinfo2_pic_15 {
+  position: absolute;
+  left: 13.33%;
+  right: 51.3%;
+  top: 90.61%;
+}
+
+#Brandinfo2_pic_16 {
+  position: absolute;
+  left: 58.59%;
+  right: 13.02%;
+  top: 94.14%;
+  //   bottom: 6.16%;
+}
+
+#Brandinfo2_bottom_text {
+  position: absolute;
+  width: 1267px;
+  height: 424px;
+  left: 94px;
+  top: 89.5%;
+  z-index: 1;
+  /* headline1 */
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 125px;
+  line-height: 135px;
+}
+
+#BrandInfo2_back {
+  transform: rotatez(90deg);
+  z-index: 2;
+  position: relative;
+  left: 94%;
+  top: 55px;
+  width: 65px;
+  height: 29px;
+  cursor: pointer;
+
+  /* Subtitle2 */
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}

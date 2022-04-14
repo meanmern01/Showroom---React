@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Pretendard;
+    src: url('../../../font/PretendardVariable.ttf') format('truetype');
+}
+.login {
+    height: 100vh;
+    background: #000000;
+    display: grid;
+    place-items: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 266px;
+}
+
+.login__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .login__subheading {
+        font-weight: 800;
+        font-size: 19px;
+        line-height: 35px;
+        letter-spacing: 0.25em;
+        margin: 12px 0 36px;
+        text-align: center;
+    }
+}
+
+// Login Form--------------------------------------------------
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .login__error {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #828282;
+        border-radius: 12px;
+        padding: 12px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .login__input-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        label {
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 12px;
+        }
+        input {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #828282;
+            border-radius: 12px;
+            outline: none;
+            padding: 11px 12px;
+            font-family: inherit;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            color: inherit;
+            line-height: 18px;
+            &::placeholder {
+                color: #828282;
+            }
+        }
+        &:first-child {
+            margin-bottom: 28px;
+        }
+    }  
+    button {
+        width: 100%;
+        border-radius: 12px;
+        border: none;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        padding: 14px;
+        margin: 70px 0 38px;
+        cursor: pointer;
+    }
+}
+// Login Form--------------------------------------------------
+
+.login__signup {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: inherit
+}

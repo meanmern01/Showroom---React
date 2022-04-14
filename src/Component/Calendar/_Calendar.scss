@@ -1,0 +1,176 @@
+.calendar__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.calendar__left {
+    padding: 70px 0;
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .calendar__title {
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 30px;
+        }
+        p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            &:nth-child(2) {
+                margin: 30px 0 40px;
+            }
+            &:nth-child(3), &:nth-child(4) {
+                margin-bottom: 13px;
+            }
+            &:last-child {
+                margin-bottom: 76px;
+            }
+        }
+    }
+    .calendar__options {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        .calendar__option-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 30px;
+        }
+        .calendar__option-options {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 30px;
+        }
+    }
+}
+
+.calendar__right {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .calendar__login-title {
+        font-family: Pretendard;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.09em;
+        margin-bottom: 50px;
+    }
+    button {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        display: block;
+        margin: 0 auto;
+        padding: 12px 100px;
+        border: 1px solid #000000;
+        border-radius: 25px;
+        background: #FFFFFF;
+        &:not(:last-child) {
+            margin-bottom: 22px;
+        }
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .calendar__container {
+        flex-direction: row;
+    }
+    .calendar__left {
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+    }
+    .calendar__right {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .calendar__left {
+        .calendar__title {
+            h1 {
+                font-size: 26px;
+                line-height: 35px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 30px;
+                &:nth-child(2) {
+                    margin: 37px 0 49px;
+                }
+                &:not(:last-child) {
+                    margin-bottom: 16px;
+                }
+                &:last-child {
+                    margin-bottom: 96px;
+                }
+            }
+        }
+        .calendar__options {
+            .calendar__option-title {
+                font-size: 15px;
+                line-height: 35px;
+            }
+            .calendar__option-options {
+                font-size: 15px;
+                line-height: 35px;
+            }
+        }
+    }
+    
+    .calendar__right {
+        .calendar__login-title {
+            font-size: 22px;
+            line-height: 35px;
+            letter-spacing: 0.12em;
+            margin-bottom: 50px;
+        }
+        button {
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.1em;
+            padding: 12px 100px;
+            border-radius: 30px;
+            &:not(:last-child) {
+                margin-bottom: 24px;
+            }
+        }
+    }
+}
+
+// @media only screen and (min-width: 1920px) {
+//     .calendar__left-container {
+//         max-width: 95%;
+//         margin: 0 auto;
+//     } 
+//     .calendar__right-container {
+//         max-width: 95%;
+//         margin: 0 auto;
+//     } 
+// }
+
+// Calendly clasees
+// .calendly-inline-widget {
+    // margin: 50% 0;
+// }
+

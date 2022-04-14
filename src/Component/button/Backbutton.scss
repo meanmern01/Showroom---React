@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("../../font//Pretendard-Bold.otf") format("opentype");
+}
+
+.backButton {
+  padding: 5px;
+  position: fixed;
+  width: 70px;
+  height: 29px;
+  top: 8%;
+  right: 3%;
+  transform: rotate(90deg);
+  overflow: hidden;
+  cursor: pointer;
+}
+.effect {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.origin {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.backButton:hover .effect {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.backButton:hover .origin {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.backButton button {
+  border: none;
+  background: transparent;
+  font-family: "Pretendard";
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+//  .homepage_button {
+//   border: none;
+//   background-color: white;
+//   font-family: 'Pretendard';
+//   font-weight: bolder;
+//   font-size:24px;
+//   transform: rotate(90deg);
+//   cursor: pointer;
+// }
+
+.homepage_header {
+  justify-content: space-between !important;
+  padding-top: 5%;
+}
+
+.homepage_header button {
+  border: none;
+  background-color: white;
+  font-family: "Pretendard";
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000000;
+  transform: rotate(90deg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+// .homepage_header .brand_button {
+//   align-items: flex-end;
+//   text-align: left;
+//   width: 70px;
+//   height: 75px;
+//   mix-blend-mode: difference;
+//   background: transparent;
+//   color: #fff;
+// }
+
+// .homepage_header .about_button {
+//   float: right;
+//   align-items: flex-start;
+//   height: 80px;
+//   mix-blend-mode: difference;
+//   background: transparent;
+//   color: #fff;
+// }
+
+.top_effect {
+  // transform: translatey(0);
+  // transition: 0.2s ease-in-out;
+  // cursor: pointer;
+  float: right;
+}
+
+// .top_origin {
+//   transform: translatey(0);
+//   transition: 0.2s ease-in-out;
+//   cursor: pointer;
+// }
+
+.homepage_header .top_effect:hover {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.homepage_header .top_origin:hover {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+
+.aboutButton {
+  padding: 5px;
+  position: fixed;
+  width: 85px;
+  height: 29px;
+  top: 8%;
+  right: 3%;
+  transform: rotate(90deg);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 5;
+  mix-blend-mode: difference;
+}
+.about_effect {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.about_origin {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.aboutButton:hover .about_effect {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.aboutButton:hover .about_origin {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.aboutButton button {
+  border: none;
+  // background-color: white;
+  font-family: "Pretendard";
+  font-weight: bolder;
+  font-size: 20px;
+  // color: #000000;
+}
+
+.brandButton {
+  padding: 5px;
+  position: fixed;
+  width: 100px;
+  height: 29px;
+  top: 8%;
+  left: 2.4%;
+  transform: rotate(90deg);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 5;
+  mix-blend-mode: difference;
+}
+.brand_effect {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.brand_origin {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.brandButton:hover .brand_effect {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.brandButton:hover .brand_origin {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.brandButton button {
+  border: none;
+  font-family: "Pretendard";
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.calendarButton {
+  padding: 5px;
+  position: fixed;
+  width: 130px;
+  height: 29px;
+  bottom: 10%;
+  right: 1.4%;
+  transform: rotate(90deg);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 5;
+  mix-blend-mode: difference;
+}
+.calendar_effect {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.calendar_origin {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.calendarButton:hover .calendar_effect {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.calendarButton:hover .calendar_origin {
+  transform: translatey(-31px);
+  transition: 0.2s ease-in-out;
+}
+.calendarButton button {
+  border: none;
+  font-family: "Pretendard";
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.digitalButton {
+  position: fixed;
+  width: 360px;
+  height: 25px;
+  left: -100px;
+  bottom: 40px;
+  transform: rotate(90deg);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 5;
+  mix-blend-mode: difference;
+}
+.digital_effect {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.digital_origin {
+  transform: translatey(0);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+.digitalButton:hover .digital_effect {
+  transform: translatey(-23px);
+  transition: 0.2s ease-in-out;
+}
+.digitalButton:hover .digital_origin {
+  transform: translatey(-23px);
+  transition: 0.2s ease-in-out;
+}
+.digitalButton button {
+  border: none;
+  font-family: "Pretendard";
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .backButton button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .backButton button {
+    top: 5%;
+    font-size: 18px;
+  }
+  .homepage_header {
+    padding-top: 12%;
+  }
+} //tab
+
+@media (max-width: 545px) {
+  .backButton button {
+    top: 5%;
+    font-size: 18px;
+  }
+  .homepage_header {
+    padding-top: 15%;
+  }
+} // for mobile

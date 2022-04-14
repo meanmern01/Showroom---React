@@ -1,0 +1,550 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("../../../font/PretendardVariable.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("../../../font/Pretendard-Bold.otf") format("opentype");
+}
+body {
+  font-family: "Pretendard";
+  font-family: "Pretendard-Bold";
+}
+.moving-gallery {
+  // position: absolute;
+  // width: 11615px;
+  // height: 1200px;
+  // // left: 323px;
+  // // top: 1061px;
+  // width: 100%;
+  background: #ffffff;
+  position: relative;
+  // width: 1920px;
+  width: 100%;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  // height: 40%;
+
+  &__wrapper {
+    // display: flex;
+    // align-items: center;
+    // min-height: 200px;
+    // // display: flex;
+    // justify-content: start;
+    // align-items: center;
+
+    &.hidden {
+      display: none;
+    }
+  }
+  &__slide {
+    // padding-right: 155px;
+    // max-width: 500px;
+    // display: block;
+    // position: absolute;
+
+    img {
+      width: 300px;
+      max-width: 100%;
+      display: block;
+      position: absolute;
+      // padding-left: 500px;
+      // padding-right: 500px;
+    }
+  }
+}
+.world-clock {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: calc(90% - 250px);
+  left: calc(50% - 86px);
+  z-index: 6;
+  mix-blend-mode: difference;
+  color: #fff;
+}
+.world-clock img {
+  filter: invert(1);
+}
+.clock_content {
+  margin-left: 25px;
+  text-transform: uppercase;
+  text-align: justify;
+  font-family: "Pretendard-Bold";
+}
+.ideal-logo {
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+  position: relative;
+  top: 22px;
+  z-index: 7;
+  mix-blend-mode: difference;
+}
+.ideal-logo img {
+  color: #fff;
+  filter: invert(1);
+}
+.moving-gallery__wrapper {
+  height: calc(100vh + 200px) !important;
+  // width: 23240px;
+  width: 11615px !important;
+  position: relative;
+  z-index: 0;
+  // pointer-events: auto !important;
+}
+.slider,
+.photos {
+  pointer-events: auto !important;
+}
+.slider:hover {
+  z-index: 4;
+}
+.ideal_showroom {
+  // overflow-y: hidden;
+  position: fixed;
+  top: calc(50% - 150px);
+  left: 100px;
+  font-size: 9vw;
+  z-index: 5;
+  mix-blend-mode: difference;
+  // font-weight: bold;
+  color: #fff;
+  // color: black;
+  // font-weight: 700;
+  font-family: "Pretendard-Bold";
+  line-height: 1.2;
+  width: 150px;
+  font-weight: 500;
+}
+.parallax_header {
+  mix-blend-mode: difference;
+}
+
+// .moving-gallery__slide img {
+//   padding-left: 10px;
+//   padding-right: 10px;
+// }
+
+.banOne1 {
+  position: absolute;
+  left: 0%;
+  // right: 96.8% !important;
+  top: 66.11%;
+  bottom: 0%;
+  height: 406px;
+  width: 422px;
+}
+.banOne2 {
+  position: absolute;
+  left: 1.84%;
+  // right: 91.64% !important;
+  top: 0%;
+  bottom: 62.69%;
+  height: 447px;
+  width: 860px;
+}
+.banOne3 {
+  position: absolute;
+  left: 7.85% !important;
+  // right: 87.88% !important;
+  top: 57.78% !important;
+  bottom: 21.76% !important;
+  width: 563px !important;
+  height: 245px !important;
+}
+.banOne4 {
+  position: absolute;
+  left: 11.45% !important;
+  // right: 85.11% !important;
+  top: 13.52%;
+  bottom: 36.02%;
+}
+.banOne5 {
+  position: absolute;
+  left: 17.73% !important;
+  // right: 78.42% !important;
+  top: 46.39%;
+  bottom: 0%;
+}
+.banOne6 {
+  position: absolute;
+  left: 20.15% !important;
+  // right: 74.39% !important;
+  top: 0%;
+  bottom: 42.22%;
+}
+.wallTwo > div img {
+  width: 100%;
+}
+// .wallTwo > div {
+//   max-width: 50%;
+// }
+.wallTwo {
+  margin: 10vw;
+  display: flex;
+}
+.banOne7 {
+  position: absolute;
+  left: 27.64% !important;
+  // right: 69.11% !important;
+  top: 66.11%;
+  bottom: 0%;
+}
+.banOne8 {
+  position: absolute;
+  left: 29.77% !important;
+  // right: 66.58% !important;
+  top: 10.93%;
+  bottom: 62.69%;
+}
+.banOne9 {
+  position: absolute;
+  left: 34.23% !important;
+  // right: 60.42% !important;
+  top: 46.39%;
+  bottom: 0%;
+}
+.banOne10 {
+  position: absolute;
+  left: 41.33% !important;
+  // right: 56.03% !important;
+  top: 0%;
+  bottom: 63.25%;
+}
+.banOne11 {
+  position: absolute;
+  left: 42.65% !important;
+  // right: 48.95% !important;
+  top: 27.58%;
+  bottom: 10.67%;
+}
+.banOne12 {
+  position: absolute;
+  left: 53.2% !important;
+  // right: 42.41% !important;
+  top: 41.67%;
+  bottom: 0.19%;
+}
+.banOne13 {
+  position: absolute;
+  left: 60.44% !important;
+  // right: 32.25% !important;
+  top: 0%;
+  bottom: 35.46%;
+}
+.banOne14 {
+  position: absolute;
+  left: 66.56% !important;
+  // right: 29.59% !important;
+  top: 46.39%;
+  bottom: 0%;
+}
+.banOne15 {
+  position: absolute;
+  left: 71.91% !important;
+  // right: 23.81% !important;
+  top: 18.7%;
+  bottom: 60.83%;
+}
+.banOne16 {
+  position: absolute;
+  left: 77.88% !important;
+  // right: 18.92% !important;
+  top: 56.3%;
+  bottom: 9.81%;
+}
+.banOne17 {
+  position: absolute;
+  left: 82.02% !important;
+  // right: 11.99% !important;
+  top: 14.42%;
+  bottom: 31.92%;
+}
+.banOne18 {
+  position: absolute;
+  left: 91.04% !important;
+  // right: 0% !important;
+  top: 28.67%;
+  bottom: 0.17%;
+}
+
+.banTwo1 {
+  position: absolute;
+  left: 0.43%;
+  // right: 96.87%;
+  top: 43.33%;
+  bottom: 18.98%;
+}
+.banTwo2 {
+  position: absolute;
+  left: 5.47%;
+  // right: 89.07%;
+  top: 0%;
+  bottom: 42.22%;
+}
+.banTwo3 {
+  position: absolute;
+  left: 9.57%;
+  // right: 86.58%;
+  top: 46.39%;
+  bottom: 0%;
+}
+.banTwo4 {
+  position: absolute;
+  left: 15.57%;
+  // right: 81.98%;
+  top: 9.17%;
+  bottom: 58.33%;
+}
+.banTwo5 {
+  position: absolute;
+  left: 16.79%;
+  // right: 77.02%;
+  top: 53.83%;
+  bottom: 7.42%;
+}
+.banTwo6 {
+  position: absolute;
+  left: 25.28%;
+  // right: 69.38%;
+  top: 46.39%;
+  bottom: 0%;
+}
+.banTwo7 {
+  position: absolute;
+  left: 28.6%;
+  // right: 67.75%;
+  top: 10.93%;
+  bottom: 62.69%;
+}
+.banTwo8 {
+  position: absolute;
+  left: 35.47%;
+  // right: 61.28%;
+  top: 57.78%;
+  bottom: 0%;
+}
+.banTwo9 {
+  position: absolute;
+  left: 37.04%;
+  // right: 55.64%;
+  top: 0%;
+  bottom: 36.67%;
+}
+.banTwo10 {
+  position: absolute;
+  left: 45.81%;
+  // right: 49.8%;
+  top: 28.89%;
+  bottom: 12.96%;
+}
+.banTwo11 {
+  position: absolute;
+  left: 54.3%;
+  // right: 38.39%;
+  top: 9.35%;
+  bottom: 26.11%;
+}
+.banTwo12 {
+  position: absolute;
+  left: 62.54%;
+  // right: 35.3%;
+  top: 56.3%;
+  bottom: 7.04%;
+}
+.banTwo13 {
+  position: absolute;
+  left: 67.63%;
+  // right: 26.41%;
+  top: 18.75%;
+  bottom: 50.75%;
+}
+.banTwo14 {
+  position: absolute;
+  left: 75.04%;
+  // right: 21.76%;
+  top: 45%;
+  bottom: 21.11%;
+}
+.banTwo15 {
+  position: absolute;
+  left: 81.48%;
+  // right: 11.18%;
+  top: 46.2%;
+  bottom: 0.19%;
+}
+.banTwo16 {
+  position: absolute;
+  left: 86.45%;
+  // right: 8.89%;
+  top: 0%;
+  bottom: 42.22%;
+}
+.banTwo17 {
+  position: absolute;
+  left: 93.83%;
+  // right: 0.74%;
+  top: 53.8%;
+  bottom: 12.96%;
+}
+
+.banThree1 {
+  position: absolute;
+  left: 0%;
+  // right: 94.38%;
+  top: 57.17%;
+  bottom: -4.02%;
+}
+.banThree2 {
+  position: absolute;
+  left: 3.64%;
+  right: 93.45%;
+  top: 0%;
+  bottom: 52.5%;
+}
+.banThree3 {
+  position: absolute;
+  left: 9.16%;
+  // right: 86.33%;
+  top: 23.8%;
+  bottom: 40.74%;
+}
+.banThree4 {
+  position: absolute;
+  left: 15.23%;
+  // right: 82.05%;
+  top: 47.5%;
+  bottom: 3.33%;
+}
+.banThree5 {
+  position: absolute;
+  left: 19.31%;
+  // right: 74.37%;
+  top: 0%;
+  bottom: 42.83%;
+}
+.banThree6 {
+  position: absolute;
+  left: 24.97%;
+  // right: 69.57%;
+  top: 37.31%;
+  bottom: 0%;
+}
+.banThree7 {
+  position: absolute;
+  left: 31.98%;
+  // right: 64.11%;
+  top: 10.19%;
+  bottom: 69.63%;
+}
+.banThree8 {
+  position: absolute;
+  left: 34.23%;
+  // right: 60.42%;
+  top: 46.39%;
+  bottom: 0%;
+}
+.banThree9 {
+  position: absolute;
+  left: 41.84%;
+  // right: 54.91%;
+  top: 55.19%;
+  bottom: 10.93%;
+}
+.banThree10 {
+  position: absolute;
+  left: 43.42%;
+  // right: 52.8%;
+  top: 7.75%;
+  bottom: 57.75%;
+}
+.banThree11 {
+  position: absolute;
+  left: 48.76%;
+  // right: 43.97%;
+  top: 11.11%;
+  bottom: 35.46%;
+}
+.banThree12 {
+  position: absolute;
+  left: 54.77%;
+  // right: 40.84%;
+  top: 37.31%;
+  bottom: 4.54%;
+}
+.banThree13 {
+  position: absolute;
+  left: 60.72%;
+  // right: 35.01%;
+  top: 13.61%;
+  bottom: 65.93%;
+}
+.banThree14 {
+  position: absolute;
+  left: 64.28%;
+  // right: 29.59%;
+  top: 46.39%;
+  bottom: 6.76%;
+}
+.banThree15 {
+  position: absolute;
+  left: 70.85%;
+  // right: 21.83%;
+  top: 0%;
+  bottom: 35.46%;
+}
+.banThree16 {
+  position: absolute;
+  left: 80.42%;
+  // right: 15.97%;
+  top: 55.17%;
+  bottom: 0.17%;
+}
+.banThree17 {
+  position: absolute;
+  left: 86.61%;
+  // right: 9.54%;
+  top: 5.46%;
+  bottom: 40.93%;
+}
+.banThree18 {
+  position: absolute;
+  left: 86.61%;
+  // right: 9.54%;
+  top: 5.46%;
+  bottom: 40.93%;
+}
+
+@media (max-width: 767px) {
+  .ideal_showroom {
+    top: calc(50% - 75px);
+    left: 22px;
+    font-size: 10vw;
+  }
+  .brandButton {
+    left: -20px;
+  }
+  .digitalButton {
+    left: -151px;
+  }
+  .aboutButton {
+    width: 88px;
+    height: 29px;
+    top: 7%;
+    right: -3%;
+  }
+  .calendarButton {
+    bottom: 9%;
+    right: -6.6%;
+  }
+  .world-clock {
+    left: calc(50% - 71px);
+  }
+  .world-clock img {
+    width: 60px;
+  }
+  .clock_content {
+    font-size: 12px;
+  }
+}

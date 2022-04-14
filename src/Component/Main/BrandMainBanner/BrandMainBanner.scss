@@ -1,0 +1,164 @@
+.BrandMainBanner_01 {
+  position: absolute;
+  width: 100%;
+  // left: 254px;
+  // height: 100%;
+  overflow: hidden;
+  // top: 866px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(218, 224, 200, 0) 0%,
+    #dae0c8 8.85%,
+    #dae0c8 32.29%,
+    #fff0db 40.63%,
+    #fff0db 62.5%,
+    #c8dae0 73.96%
+  );
+}
+.wallOne {
+  display: flex;
+  margin: 0 10vw;
+}
+.second.photos {
+  margin-right: 7vw;
+  margin-left: 10vw;
+  margin-top: 20%;
+}
+.brandmainbanner {
+  // height: 1000px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  position: relative;
+  // z-index: 2;
+}
+.brandDiv {
+  position: relative;
+  z-index: 2;
+}
+.cursor {
+  cursor: pointer;
+}
+.wallOne {
+  display: flex;
+}
+.wallOne > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.fourth.photos {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 20%;
+}
+.third.photos {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 20%;
+}
+.wallOne {
+  // width: 1920px;
+  // height: 100%;
+  // left: 254px;
+  // top: 866px;
+  // position: absolute;
+
+  // .first {
+  //   position: relative;
+  //   left: 9.48%;
+  //   right: 53.18%;
+  //   // top: 3.3%;
+  //   bottom: 0;
+  //   width: 100%;
+  // }
+
+  // .second {
+  //   position: absolute;
+  //   // position: absolute;
+  //   left: 64.01%;
+  //   right: 11.2%;
+  //   top: 7.5%;
+  //   bottom: 58.13%;
+  //   width: 100%;
+  // }
+  a.first.photos img {
+    width: 100%;
+  }
+
+  // .third {
+  //   position: absolute;
+  //   // position: absolute;
+  //   left: 55.83%;
+  //   right: 7.34%;
+  //   top: 19.75%;
+  //   bottom: 18.42%;
+  //   width: 100%;
+  // }
+
+  // .fourth {
+  //   position: absolute;
+  //   // position: absolute;
+  //   left: 13.75%;
+  //   right: 57.45%;
+  //   top: 20.35%;
+  //   bottom: 6.16%;
+  //   width: 100%;
+  // }
+}
+.wallTwo_left img {
+  left: 27% !important;
+  z-index: 2;
+  top: 9% !important;
+}
+.wallTwo_left {
+  max-width: 40%;
+}
+.left_wall_three {
+  max-width: 30%;
+}
+.right_wall_three {
+  max-width: 70%;
+}
+.wallThree {
+  display: flex;
+  width: 100%;
+  padding: 10vw;
+}
+a.eighth.photos img {
+  left: 40% !important;
+  z-index: 3;
+  top: 25% !important;
+}
+a.ninth.photos img {
+  width: 60%;
+  margin-left: 32%;
+  margin-top: 15%;
+}
+a.eighth.photos img {
+  width: 125%;
+}
+.wallTwo_right {
+  max-width: 60%;
+}
+.photos img {
+  width: 100%;
+}
+.wallTwo {
+  .fifth {
+  }
+
+  .sixth {
+  }
+}
+
+.wallThree {
+  .seventh {
+  }
+
+  .eighth {
+  }
+
+  .ninth {
+  }
+}

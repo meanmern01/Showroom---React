@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("../../font/Pretendard-Bold.otf") format("opentype");
+}
+body {
+  font-family: "Pretendard";
+}
+
+// #brandinfo1----------------------------------------------
+.Brandinfo {
+  position: relative;
+  width: 100%;
+  height: 12500px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+
+  background: linear-gradient(
+    180deg,
+    #dae0c8 0%,
+    #dae0c8 86.98%,
+    #fff0db 89.06%,
+    #fff0db 100%
+  );
+}
+
+#ideal {
+  position: absolute;
+  left: 45%;
+  right: 90.25%;
+  top: 20px;
+  bottom: 76.49%;
+  width: 80px;
+  height: 30px;
+  line-height: 10px;
+  font-size: 30px;
+  color: black;
+  border: none;
+}
+
+.Brandinfo #upper_text {
+  position: absolute;
+  width: 920px !important;
+  height: 300px;
+  left: 125px;
+  top: 170px;
+  z-index: 2;
+  /* headline1 */
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 145px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: slategrey;
+  color: transparent;
+  position: fixed;
+  // border: 2px solid #000000;
+}
+
+#pic_1 {
+  position: absolute;
+  left: 53.49%;
+  right: 0%;
+  top: 0%;
+  // width: 46.5% !important;
+  z-index: 1;
+}
+
+#pic_2 {
+  position: absolute;
+  left: 9.48%;
+  right: 13.33%;
+  top: 7.1%;
+  // width: 75% !important;
+}
+
+#pic_3 {
+  position: absolute;
+  left: 18.44%;
+  right: 34.22%;
+  top: 14.58%;
+  // width: 55% !important;
+}
+#pic_4 {
+  position: absolute;
+  left: 27.29%;
+  right: 4.38%;
+  top: 23.62%;
+  // width: 70% !important;
+}
+
+#pic_7 {
+  position: absolute;
+  left: 14.32%;
+  right: 18.12%;
+  top: 28.2%;
+  // width: 66.7% !important;
+}
+
+#pic_8 {
+  position: absolute;
+  left: 57.71%;
+  right: 0%;
+  top: 36.6%;
+  // width: 42.3% !important;
+}
+
+#pic_6 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 43.9%;
+  // width: 100% !important;
+}
+
+#pic_9 {
+  position: absolute;
+  left: 18.44%;
+  right: 34.22%;
+  top: 53.7%;
+  // width: 50% !important;
+}
+
+#pic_10 {
+  position: absolute;
+  left: 44.64%;
+  right: 13.07%;
+  top: 61.7%;
+  // width: 45% !important;
+}
+
+#pic_11 {
+  position: absolute;
+  left: 0%;
+  right: 29.58%;
+  top: 69.5%;
+  // width: 65% !important;
+}
+
+#pic_12 {
+  position: absolute;
+  left: 35.21%;
+  right: 4.38%;
+  top: 74.2%;
+  // width: 63% !important;
+}
+
+#pic_13 {
+  position: absolute;
+  left: 14.32%;
+  right: 55.36%;
+  top: 80.8%;
+  // width: 30% !important;
+}
+#pic_14 {
+  position: absolute;
+  left: 13.8%;
+  right: 50.47%;
+  top: 89.49%;
+  // width: 34% !important;
+  z-index: 1;
+}
+
+#pic_15 {
+  position: absolute;
+  left: 43.8%;
+  right: 6.51%;
+  top: 88.7%;
+  // width: 47% !important;
+}
+
+#bottom_text {
+  position: absolute;
+  width: 940px;
+  height: 300px;
+  left: 75px;
+  top: 11278px;
+  z-index: 2;
+
+  /* headline1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 135px;
+  -webkit-text-fill-color: black;
+  border: none;
+}
+
+#BrandInfo1_back {
+  transform: rotatez(90deg);
+  z-index: 2;
+  position: relative;
+  left: 94%;
+  top: 55px;
+  width: 65px;
+  height: 29px;
+  cursor: pointer;
+
+  /* Subtitle2 */
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
